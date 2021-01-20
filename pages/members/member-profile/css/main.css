@@ -13,9 +13,7 @@
 }
 
 .info-container{
-    width: 40%;
     height: auto;
-    background-color: lightseagreen;
     float: left;
     margin: 10px;
     margin-right: 0;
@@ -23,98 +21,86 @@
     display: block;
 }
 
-/*-------------------INICIO DE ESTILOS DE BASIC INFO-------------------*/
-.member-basic-info{
-    display: block;
-    width: 98%;
-    margin: 5px auto;
+
+
+.card {
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
 }
 
-.member-image{
-    width: 100px;
-    height: 100px;
+.avatar {
+    width: 50%;
 }
 
-.member-name{
-
+.title {
+    color: grey;
+    font-size: 18px;
 }
 
-.member-job{
-
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
 }
 
-.member-description{
-
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 }
 
-    /*-------------------INICIO DE ESTILOS DE REDES DE MIEMBRO-------------------*/
-    .member-social-networks{
-        width: 100%;
-        height: auto;
-    }
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
 
-    .member-social-networks-container{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
+.Table {
+    padding-inline-start: 5rem;
+    display: table;
+}
 
-        /*-------------------INICIO DE ESTILOS DE RED SOCIAL-------------------*/
-        .social-network{
-            display: inline-block;
-            margin: 5px 10px;
-            border-radius: 25px;
-            width: 94%;
-            background-color: mediumblue;
-            padding: 0 5px;
-        }
+.Title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
 
-            .network-img{
-                width: 30px;
-                height: 30px;
-                border-radius: 25px;
-                display: inline-block;
-                margin: auto 2px;
-                margin-top: 5px;
-                margin-bottom: 2px;
-            }
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
 
-            .network-link{
-                display: inline-block;
-                color: white;
-                position: relative;
-                bottom: 12px;
-                text-decoration: none;
-            }
-        /*-------------------FIN DE ESTILOS DE RED SOCIAL-------------------*/
+.Row {
+    display: table-row;
+}
 
-    /*-------------------FIN DE ESTILOS DE REDES DE MIEMBRO-------------------*/
+.Cell {
+    display: table-cell;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    vertical-align: top;
+}
 
-    /*-------------------INICIO DE ESTILOS DE INFO DE CONTACTO-------------------*/
-    .member-contact-info{
-        
-    }
 
-        /*-------------------INICIO DE ESTILOS DEL DIV DEL INFO DE CONTACTO-------------------*/
-        .contact-info-div{
-
-        }
-
-            .contact-info-name{
-
-            }
-
-            .contact-info-content{
-
-            }
-        /*-------------------FIN DE ESTILOS DEL DIV DEL INFO DE CONTACTO-------------------*/
-
-    /*-------------------FIN DE ESTILOS DE INFO DE CONTACTO-------------------*/
-
-/*-------------------FIN DE ESTILOS DE BASIC INFO-------------------*/
-
+/*----------------------INICIO DE ESTILOS DE MEMBER CONTENT----------------------*/
 
 .member-content{
-    width: 59.2%;
+    width: 73%;
     min-height: 500px;
     display: inline-block;
 }
@@ -127,24 +113,25 @@
     }
 
         .member-programing-languagues-title{
-
+            margin: 0;
         }
 
         .member-programing-languagues-container{
             padding: 15px;
             display: grid;
-            grid-template-columns: repeat(7,1fr);
+            grid-template-columns: repeat(8,1fr);
         }
     
         .member-lenguague{
             background-color: lightcoral;
             padding: 10px;
-            width: 80px;
+            width: 70px;
+            margin: 5px 0;
         }
 
             .languague-img{
-                width: 55px;
-                height: 55px;
+                width: 50px;
+                height: 50px;
                 display: block;
                 margin: 1px auto;
             }
@@ -158,21 +145,26 @@
     .member-projects{
         min-height: 600px;
         margin: 10px;
-        padding: 15px;
+        padding: 10px;
         background-color: lightcyan;
+    }
+
+    .member-projects-title{
+        margin: 0;
+        margin-bottom: 15px;
     }
 
     .member-projects-container{
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(4,1fr);
         min-height: 600px;
-        padding: 15px;
+        padding: 5px;
         background-color: rgb(183, 209, 209);
     }
 
         .project-card{
             background-color: darkgray;
-            width: 220px;
+            width: 210px;
             height: 300px;
             margin: 5px;
             display: inline-block;
