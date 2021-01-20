@@ -1,0 +1,211 @@
+.main-content{
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.member-container{
+    width: 98%;
+    height: 100%;
+    background-color: cadetblue;
+    margin: 0 auto;
+    display: block;
+}
+
+.info-container{
+    width: 40%;
+    height: auto;
+    background-color: lightseagreen;
+    float: left;
+    margin: 10px;
+    margin-right: 0;
+    padding: 15px;
+    display: block;
+}
+
+/*-------------------INICIO DE ESTILOS DE BASIC INFO-------------------*/
+.member-basic-info{
+    display: block;
+    width: 98%;
+    margin: 5px auto;
+}
+
+.member-image{
+    width: 100px;
+    height: 100px;
+}
+
+.member-name{
+
+}
+
+.member-job{
+
+}
+
+.member-description{
+
+}
+
+    /*-------------------INICIO DE ESTILOS DE REDES DE MIEMBRO-------------------*/
+    .member-social-networks{
+        width: 100%;
+        height: auto;
+    }
+
+    .member-social-networks-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+        /*-------------------INICIO DE ESTILOS DE RED SOCIAL-------------------*/
+        .social-network{
+            display: inline-block;
+            margin: 5px 10px;
+            border-radius: 25px;
+            width: 94%;
+            background-color: mediumblue;
+            padding: 0 5px;
+        }
+
+            .network-img{
+                width: 30px;
+                height: 30px;
+                border-radius: 25px;
+                display: inline-block;
+                margin: auto 2px;
+                margin-top: 5px;
+                margin-bottom: 2px;
+            }
+
+            .network-link{
+                display: inline-block;
+                color: white;
+                position: relative;
+                bottom: 12px;
+                text-decoration: none;
+            }
+        /*-------------------FIN DE ESTILOS DE RED SOCIAL-------------------*/
+
+    /*-------------------FIN DE ESTILOS DE REDES DE MIEMBRO-------------------*/
+
+    /*-------------------INICIO DE ESTILOS DE INFO DE CONTACTO-------------------*/
+    .member-contact-info{
+        
+    }
+
+        /*-------------------INICIO DE ESTILOS DEL DIV DEL INFO DE CONTACTO-------------------*/
+        .contact-info-div{
+
+        }
+
+            .contact-info-name{
+
+            }
+
+            .contact-info-content{
+
+            }
+        /*-------------------FIN DE ESTILOS DEL DIV DEL INFO DE CONTACTO-------------------*/
+
+    /*-------------------FIN DE ESTILOS DE INFO DE CONTACTO-------------------*/
+
+/*-------------------FIN DE ESTILOS DE BASIC INFO-------------------*/
+
+
+.member-content{
+    width: 59.2%;
+    min-height: 500px;
+    display: inline-block;
+}
+
+    .member-programing-languagues{
+        margin: 10px;
+        background-color: khaki;
+        padding: 15px;
+        display: block;
+    }
+
+        .member-programing-languagues-title{
+
+        }
+
+        .member-programing-languagues-container{
+            padding: 15px;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+        }
+    
+        .member-lenguague{
+            background-color: lightcoral;
+            padding: 10px;
+            width: 80px;
+        }
+
+            .languague-img{
+                width: 55px;
+                height: 55px;
+                display: block;
+                margin: 1px auto;
+            }
+
+            .lenguague-name{
+                display: block;
+                margin: 1px auto;
+                text-align: center;
+            }
+
+    .member-projects{
+        min-height: 600px;
+        margin: 10px;
+        padding: 15px;
+        background-color: lightcyan;
+    }
+
+    .member-projects-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        min-height: 600px;
+        padding: 15px;
+        background-color: rgb(183, 209, 209);
+    }
+
+        .project-card{
+            background-color: darkgray;
+            width: 220px;
+            height: 300px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+            .project-img-container{
+                width: inherit;
+            }
+
+                .img-project{
+                    width: 200px;
+                    height: 120px;
+                    margin: 4px auto;
+                    display: block;
+                }
+
+            .project-info{
+                display: block;
+                margin: auto;
+                width: 200px;
+            }
+
+                .project-name{
+                    display: block;
+                    margin: 3px auto;
+                }
+
+                .project-short-description{
+                    display: block;
+                    margin: 2px auto;
+                }
+
+                .project-link{
+                    display: block;
+                    margin: 3px auto;
+                }
