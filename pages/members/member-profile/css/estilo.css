@@ -6,3 +6,76 @@ body {
     background-color: lightgrey;
     margin: 0;
 }
+
+.card {
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+.avatar {
+    width: 50%;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+.Table {
+    padding-inline-start: 5rem;
+    display: table;
+}
+
+.Title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Row {
+    display: table-row;
+}
+
+.Cell {
+    display: table-cell;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    vertical-align: top;
+}
